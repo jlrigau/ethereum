@@ -36,7 +36,7 @@ Run the server
 $docker run --name server -d --volumes-from dapp -w /dapp/embark_demo --net container:blockchain jlrigau/embark run
 ```
 
-Now you can access to the demonstration application through this url
+Now you can access to the demonstration application through this URL:
 
 ```
 localhost:8000
