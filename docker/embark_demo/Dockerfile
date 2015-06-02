@@ -1,4 +1,4 @@
-FROM embark
+FROM jlrigau/embark
 
 MAINTAINER Jean-Louis Rigau (jlrigau@xebia.fr)
 
