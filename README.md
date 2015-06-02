@@ -9,6 +9,6 @@ $embark blockchain
 ```
 
 ```shell
-$docker run --name dapp -d -v /dapp embark demo
-$docker run --name blockchain -d --volumes-from dapp -p XXXX:XXXX embark blockchain
+$docker run --name dapp -d -v /dapp jlrigau/embark demo
+$docker run --name blockchain -d --volumes-from dapp -p XXXX:XXXX jlrigau/embark blockchain
 ```
