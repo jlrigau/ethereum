@@ -2,11 +2,11 @@
 
 ## Run Embark demonstration
 
-
-embark demo
-cd /embark_demo
-embark blockchain
-
+```shell
+$embark demo
+$cd /embark_demo
+$embark blockchain
+```
 
 ```shell
 $docker run --name dapp -d -v /dapp embark demo
