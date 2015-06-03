@@ -44,3 +44,5 @@ $docker run --name server -d --volumes-from dapp -w /dapp/embark_demo --net cont
 ```
 
 Now you can access to the demonstration application through the URL ```localhost:8000```
+
+[Embark Demo Screenshot](embark_demo.png)
