@@ -18,7 +18,7 @@ $docker run --name dapp -d -v /home/dapp:/dapp jlrigau/embark demo
 Run the blockchain
 
 ```shell
-$docker run --name blockchain -d --volumes-from dapp -w /dapp/embark_demo -p 8000:8000 jlrigau/embark blockchain
+$docker run --name blockchain -d --volumes-from dapp -w /dapp/embark_demo --net host jlrigau/embark blockchain
 ```
 
 Check logs and wait the completion of DAG generation
