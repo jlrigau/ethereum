@@ -9,6 +9,8 @@ Docker images are available on the Docker Hub
 
 ## Run Embark demonstration
 
+Documentation on Embark framework is available here https://iurimatias.github.io/embark-framework/
+
 Create the demonstration application
 
 ```shell
