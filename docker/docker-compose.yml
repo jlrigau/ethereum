@@ -1,9 +1,0 @@
-blockchain:
-  image: embark_demo
-dapp:
-  image: embark
-  command: run
-  ports:
-    - "8000:8000"
-  links:
-    - blockchain
